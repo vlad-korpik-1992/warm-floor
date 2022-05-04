@@ -494,3 +494,45 @@ section{
     color: #fff;
     font-style: normal;
 }
+.hero__cart{
+    background-image: url(../img/cart-bg.jpg);
+    padding: 42px 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 366px;
+}
+.hero__cart__items{
+    background-color: #000;
+    flex: 0 0 45%;
+    max-width: 45%;
+    padding: 40px 20px 40px 40px;
+    margin-right: 25px;
+}
+.hero__cart__items h1{
+    font-size: 34px;
+    line-height: 100%;
+    padding-bottom: 48px;
+    color: #fff;
+}
+.hero__cart__items p{
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 500;
+}
+.breadcrumbs__list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.breadcrumbs__list__items{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.breadcrumbs__list__items__link{
+    font-size: 18px;
+    line-height: 24px;
+    color: #000;
+}
