@@ -61,4 +61,16 @@ $(document).ready(function() {
     ]
   });
 
+  $('.tabs__box__tab').click(function (e) {
+    e.preventDefault();
+    let elem = e.target;
+    let id = '1' + elem.getAttribute('id');
+    $('.tabs__box__content').removeClass('tabs__box__content_active');
+    $('.tabs__box__tab').removeClass('tabs__box__tab_active');
+    jQuery("#"+id).addClass('tabs__box__content_active');
+    let idElem = elem.getAttribute('id');
+    console.log(idElem);
+    jQuery("#"+idElem).addClass('tabs__box__tab_active');
+  });
+
 });
