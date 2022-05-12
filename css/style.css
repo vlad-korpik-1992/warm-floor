@@ -426,6 +426,11 @@ section{
     cursor: pointer;
 }
 .rating{
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rating__bg{
     background-color: #ff7913;
     max-width: 67%;
     padding: 55px 0;
@@ -505,6 +510,10 @@ section{
 .catalog__box__items__cover_height{
     height: 370px;
 }
+.pictures{
+    max-width: 1500px;
+    margin: 0 auto 80px;
+}
 .pictures__box{
     display: flex;
     flex-wrap: wrap;
@@ -544,11 +553,11 @@ section{
     padding-bottom: 60px;
 }
 .footer{
+    max-width: 1500px;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
-    margin-left: -15px;
-    margin-right: -15px;
     margin-bottom: 80px;
 }
 .footer__bg{
