@@ -977,3 +977,33 @@ select.box__sidebar__input{
     line-height: 24px;
     font-weight: 400;
 }
+.contacts__box{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+.contacts__box__items{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.contacts__meta{
+    color: #000;
+    opacity: 0.3;
+    font-size: 20px;
+    line-height: 100%;
+    padding-bottom: 10px;
+}
+.contacts__link{
+    font-size: 24px;
+    color: #1a1a1a;
+}
+.contacts__address{
+    font-size: 20px;
+    color: #1a1a1a;
+}
