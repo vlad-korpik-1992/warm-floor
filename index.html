@@ -29,8 +29,8 @@
                     <li class="menu__list__items">
                         <a href="#" class="menu__link">Бойлеры</a>
                     </li>
-                    <li class="menu__list__items">
-                        <a href="#" class="menu__link">История бренда</a>
+                    <li class="menu__list__items scrollto">
+                        <a href="#about" class="menu__link">История бренда</a>
                     </li>
                     <li class="menu__list__items">
                         <a href="#" class="menu__link">Новости</a>
@@ -53,10 +53,10 @@
     <section class="hero">
         <div class="wrapper">
             <div class="hero__box">
-                <div class="hero__box__items">
+                <div class="hero__box__items scrollto">
                     <h1>Единственный представитель в Гродно и области</h1>
                     <p>Опрос подсознательно притягивает коллективный рекламоноситель, осознавая социальную ответственность бизнеса. Размещение конструктивно...</p>
-                    <a class="hero__link" href="#">История бренда</a>
+                    <a class="hero__link" href="#about">История бренда</a>
                 </div>
             </div>
         </div>
@@ -148,14 +148,14 @@
                 <div class="rating__box">
                     <div class="rating__box__circle">4.92</div>
                     <div class="rating__box__items">
-                        <a class="rating__video" href="#">
-                            <img class="rating__video__img" src="img/rating-video.jpg" alt="">
-                            <h3>Радиатор стальной панельный Standard Hidravlika 500-11-1800</h3>
-                        </a>
-                        <a class="rating__video" href="#">
-                            <img class="rating__video__img" src="img/rating-video.jpg" alt="">
-                            <h3>Радиатор стальной панельный Standard Hidravlika 500-11-1800</h3>
-                        </a>
+                        <div class="rating__video rating__video--one">
+                            <img class="rating__video__img rating__video--one" src="img/rating-video.jpg" alt="">
+                            <h3 class="rating__video--one">Радиатор стальной панельный Standard Hidravlika 500-11-1800</h3>
+                        </div>
+                        <div class="rating__video rating__video--two">
+                            <img class="rating__video__img rating__video--two" src="img/rating-video.jpg" alt="">
+                            <h3 class="rating__video--two">Радиатор стальной панельный Standard Hidravlika 500-11-1800</h3>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -336,7 +336,7 @@
         <div class="wrapper">
             <div class="company__box">
                 <div class="company__box__items">
-                    <h2 class="section-head">О компании</h2>
+                    <h2 class="section-head" id="about">О компании</h2>
                 </div>
                 <div class="company__box__items">
                     <p class="company__box__items_bold">Один из признанных классиков маркетинга Ф.Котлер определяет это так: медиа экономит креативный ребрендинг. Согласно ставшей уже классической работе Филипа Котлера, эластичность спроса традиционно стабилизирует метод изучения рынка</p>
@@ -389,5 +389,71 @@
             </div>
         </div>
     </footer>
+    <section class="popup video--one">
+        <a href="#" class="popup__area"></a>
+        <div class="popup__body">
+            <button class="popup__header_close popup__header_close_video">
+                <svg class="close-icon close-icon--video" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                    <path d="M 9.15625 6.3125 L 6.3125 9.15625 L 22.15625 25 L 6.21875 40.96875 L 9.03125 43.78125 L 25 27.84375 L 40.9375 43.78125 L 43.78125 40.9375 L 27.84375 25 L 43.6875 9.15625 L 40.84375 6.3125 L 25 22.15625 Z"></path>
+                </svg>
+            </button>
+            <div class="popup__content popup__content--video">
+                <div class="popup__video">
+                    <iframe src="https://www.youtube.com/embed/KivxqJqzWI4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="popup video--two">
+        <a href="#" class="popup__area"></a>
+        <div class="popup__body">
+            <button class="popup__header_close popup__header_close_video">
+                <svg class="close-icon close-icon--video" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                    <path d="M 9.15625 6.3125 L 6.3125 9.15625 L 22.15625 25 L 6.21875 40.96875 L 9.03125 43.78125 L 25 27.84375 L 40.9375 43.78125 L 43.78125 40.9375 L 27.84375 25 L 43.6875 9.15625 L 40.84375 6.3125 L 25 22.15625 Z"></path>
+                </svg>
+            </button>
+            <div class="popup__content popup__content--video">
+                <div class="popup__video">
+                    <iframe src="https://www.youtube.com/embed/KivxqJqzWI4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="popup" class="popup consultation">
+        <a href="#" class="popup__area"></a>
+        <div class="popup__body">
+            <div class="popup__content">
+                <div class="popup__header">
+                    <button class="popup__header_close">
+                        <svg class="close-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                            <path d="M 9.15625 6.3125 L 6.3125 9.15625 L 22.15625 25 L 6.21875 40.96875 L 9.03125 43.78125 L 25 27.84375 L 40.9375 43.78125 L 43.78125 40.9375 L 27.84375 25 L 43.6875 9.15625 L 40.84375 6.3125 L 25 22.15625 Z"></path>
+                        </svg>
+                    </button>
+                    <div class="popup__title">Запись на консультацию</div>
+                </div>
+                <div class="popup__text">
+                    <form class="ajax__form" method="post" id="ajax__form">
+                        <input type="hidden" id="modaltitle" name="modaltitle" value="">
+                        <div class="form__group">
+                            <input type="text" class="form__group_text" required="required" id="modalname" name="modalname" value="" placeholder="Ваше имя*">
+                        </div>
+                        <div class="form__group">
+                            <input type="text" class="form__group_text" required="required" id="modalphone" name="modalphone" value="" placeholder="Номер телефона*">
+                        </div>
+                        <div class="form__group">
+                            <textarea class="form__group_textarea" name="letter" id="messages" type="text" cols="80" rows="10" placeholder="Напишите что Вас интересует"></textarea>
+                        </div>
+                        <div class="letter__form__error letter__form__error_mt error" id="status__error"></div>
+                        <div class="form__group">
+                            <button id="sidebar-send" class="form__btn" type="submit">Отправить</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
